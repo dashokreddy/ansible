@@ -1,6 +1,7 @@
 ---
 - hosts: all
   become: yes
+  garther_facts: yes
   tasks:
   - name: i want to install apache2
     apt:
