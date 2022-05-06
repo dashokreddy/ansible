@@ -1,5 +1,5 @@
 ---
-- hosts: mywebserver.yml
+- hosts: all
   become: yes
   garther_facts: yes
   tasks:
