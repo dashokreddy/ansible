@@ -1,6 +1,6 @@
 ---
 - hosts: 170.30.0.87
-  becomes: yes
+  become: yes
   vars: 
      myvar01: git
      myvar02: tree
